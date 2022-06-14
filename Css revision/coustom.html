@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coustom Property</title>
+    <style>
+      :root {
+        --side-width: 200px;
+        --main-color: red;
+        --background-color: rgba(3, 92, 15, 0.774);
+      }
+      h1 {
+        color: var(--main-color);
+      }
+      p {
+        color: blueviolet;
+      }
+      h2 {
+        border: 2px solid blue;
+        color: blueviolet;
+      }
+      h6 {
+        background-color: var(--background-color);
+      }
+      footer {
+        clear: both;
+        color: blueviolet;
+      }
+      .side,
+      .blogs {
+        float: left;
+        height: 500px;
+      }
+      aside {
+        background-color: rgb(21, 138, 138);
+        width: 200px;
+      }
+      .blogs {
+        background-color: tomato;
+        width: calc(100% - var(--side-width));
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Explore Coustom properties</h1>
+      <p>welcome</p>
+    </header>
+    <main>
+      <h2>jjjjdjkldjw;jdjg</h2>
+      <h6>headding</h6>
+      <section>
+        <aside class="side">my site nevagation</aside>
+        <div class="blogs">
+          <h4>Blogs</h4>
+        </div>
+      </section>
+    </main>
+    <footer><small>coppyright</small></footer>
+  </body>
+</html>
